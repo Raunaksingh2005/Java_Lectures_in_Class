@@ -9,9 +9,8 @@ public class large_print_array {
                 m[i][j] = sc.nextInt();
             }
         }
-        int large=0;
         for(int i =0;i<3;i++){
-            large=0;
+            int large=m[i][0];
             for(int j=0;j<3;j++){
                 if(m[i][j]>large){
                     large=m[i][j];
